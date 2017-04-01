@@ -14,4 +14,4 @@ contentLabel.tapCallBack = ^(NSString *string,NSRange range,NSDictionary *info){
 ```
 效果如下：
 
-![效果图](https://github.com/JlongTian/JLLabel/blob/master/images/show.gif)
+![效果图](https://github.com/JlongTian/JLLabel/blob/master/image/show.gif)
