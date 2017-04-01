@@ -2,7 +2,7 @@
 用CoreText实现类似微博那样可以点击的文字，自动识别@，＃，http(s)等特殊字符串
 ```objc
 JLLabel *contentLabel = [[JLLabel alloc] init];
-contentLabel.font = kTextFont;
+contentLabel.font = [UIFont systemFontOfSize:15.0];
 contentLabel.tapCallBack = ^(NSString *string,NSRange range,NSDictionary *info){
             
      NSLog(@"点击的字符串是:%@",string);
