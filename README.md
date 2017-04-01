@@ -12,6 +12,6 @@ contentLabel.tapCallBack = ^(NSString *string,NSRange range,NSDictionary *info){
 [self.contentView addSubview:contentLabel];
  
 ```
-效果如下：
+效果图：
 
 ![效果图](https://github.com/JlongTian/JLLabel/blob/master/image/show.gif)
