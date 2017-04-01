@@ -26,8 +26,7 @@
         contentLabel.font = kTextFont;
         contentLabel.tapCallBack = ^(NSString *string,NSRange range,NSDictionary *info){
             
-            NSLog(@"%@",string);
-            NSLog(@"%@",[NSValue valueWithRange:range]);
+            NSLog(@"%@,%@",string,[NSValue valueWithRange:range]);
             
         };
         [self.contentView addSubview:contentLabel];
