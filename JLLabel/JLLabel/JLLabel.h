@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 
+/**
+ 文本点击回调block
+
+ @param string 被点击文本
+ @param range 被点击文本位置
+ @param info 与文本相关的信息
+ */
 typedef void(^JLLabelTapCallBack)(NSString *string,NSRange range,NSDictionary *info);
 
 @interface JLLabel : UIView
