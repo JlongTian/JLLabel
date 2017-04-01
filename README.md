@@ -1,5 +1,5 @@
 # JLLabel
-用CoreText实现类似微博那样可以点击的文字，自动识别@，＃，http(s)等特殊字符串
+用CoreText实现类似微博那样可以点击的文字，自动识别@，＃，http(s)等特殊字符串，用法如下：
 ```objc
 JLLabel *contentLabel = [[JLLabel alloc] init];
 contentLabel.font = [UIFont systemFontOfSize:15.0];
