@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890382E51E8F3193008D91A9 /* JLAsyncDisplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 890382E41E8F3193008D91A9 /* JLAsyncDisplayLayer.m */; };
+		8903833E1E8F776C008D91A9 /* NSString+Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8903833D1E8F776C008D91A9 /* NSString+Calculator.m */; };
+		890383451E8F7CC8008D91A9 /* JLDisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 890383431E8F7CC8008D91A9 /* JLDisplayCell.m */; };
+		890383491E8F8099008D91A9 /* JLDisplayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 890383481E8F8099008D91A9 /* JLDisplayModel.m */; };
+		890383A01E8FB7A0008D91A9 /* displayText.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8903839F1E8FB7A0008D91A9 /* displayText.plist */; };
+		89E2CE5A1E8E01170059E3F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CE591E8E01170059E3F5 /* main.m */; };
+		89E2CE5D1E8E01170059E3F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CE5C1E8E01170059E3F5 /* AppDelegate.m */; };
+		89E2CE601E8E01170059E3F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CE5F1E8E01170059E3F5 /* ViewController.m */; };
+		89E2CE631E8E01170059E3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E2CE611E8E01170059E3F5 /* Main.storyboard */; };
+		89E2CE651E8E01170059E3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E2CE641E8E01170059E3F5 /* Assets.xcassets */; };
+		89E2CE681E8E01170059E3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E2CE661E8E01170059E3F5 /* LaunchScreen.storyboard */; };
+		89E2CE731E8E01170059E3F5 /* JLLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CE721E8E01170059E3F5 /* JLLabelTests.m */; };
+		89E2CE7E1E8E01170059E3F5 /* JLLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CE7D1E8E01170059E3F5 /* JLLabelUITests.m */; };
+		89E2CE8E1E8E014C0059E3F5 /* JLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CE8D1E8E014C0059E3F5 /* JLLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89E2CE6F1E8E01170059E3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E2CE4D1E8E01170059E3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E2CE541E8E01170059E3F5;
+			remoteInfo = JLLabel;
+		};
+		89E2CE7A1E8E01170059E3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E2CE4D1E8E01170059E3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E2CE541E8E01170059E3F5;
+			remoteInfo = JLLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890382E31E8F3193008D91A9 /* JLAsyncDisplayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAsyncDisplayLayer.h; sourceTree = "<group>"; };
+		890382E41E8F3193008D91A9 /* JLAsyncDisplayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAsyncDisplayLayer.m; sourceTree = "<group>"; };
+		8903833C1E8F776C008D91A9 /* NSString+Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Calculator.h"; sourceTree = "<group>"; };
+		8903833D1E8F776C008D91A9 /* NSString+Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Calculator.m"; sourceTree = "<group>"; };
+		890383421E8F7CC8008D91A9 /* JLDisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDisplayCell.h; sourceTree = "<group>"; };
+		890383431E8F7CC8008D91A9 /* JLDisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDisplayCell.m; sourceTree = "<group>"; };
+		890383471E8F8099008D91A9 /* JLDisplayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDisplayModel.h; sourceTree = "<group>"; };
+		890383481E8F8099008D91A9 /* JLDisplayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDisplayModel.m; sourceTree = "<group>"; };
+		8903839F1E8FB7A0008D91A9 /* displayText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = displayText.plist; sourceTree = "<group>"; };
+		89E2CE551E8E01170059E3F5 /* JLLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E2CE591E8E01170059E3F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89E2CE5B1E8E01170059E3F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89E2CE5C1E8E01170059E3F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89E2CE5E1E8E01170059E3F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89E2CE5F1E8E01170059E3F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89E2CE621E8E01170059E3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89E2CE641E8E01170059E3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89E2CE671E8E01170059E3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89E2CE691E8E01170059E3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E2CE6E1E8E01170059E3F5 /* JLLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E2CE721E8E01170059E3F5 /* JLLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLLabelTests.m; sourceTree = "<group>"; };
+		89E2CE741E8E01170059E3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E2CE791E8E01170059E3F5 /* JLLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E2CE7D1E8E01170059E3F5 /* JLLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLLabelUITests.m; sourceTree = "<group>"; };
+		89E2CE7F1E8E01170059E3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E2CE8C1E8E014C0059E3F5 /* JLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLabel.h; sourceTree = "<group>"; };
+		89E2CE8D1E8E014C0059E3F5 /* JLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89E2CE521E8E01170059E3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2CE6B1E8E01170059E3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2CE761E8E01170059E3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89E2CE4C1E8E01170059E3F5 = {
+			isa = PBXGroup;
+			children = (
+				89E2CE571E8E01170059E3F5 /* JLLabel */,
+				89E2CE711E8E01170059E3F5 /* JLLabelTests */,
+				89E2CE7C1E8E01170059E3F5 /* JLLabelUITests */,
+				89E2CE561E8E01170059E3F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89E2CE561E8E01170059E3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89E2CE551E8E01170059E3F5 /* JLLabel.app */,
+				89E2CE6E1E8E01170059E3F5 /* JLLabelTests.xctest */,
+				89E2CE791E8E01170059E3F5 /* JLLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89E2CE571E8E01170059E3F5 /* JLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				89E2CE8B1E8E013A0059E3F5 /* JLLabel */,
+				89E2CE5B1E8E01170059E3F5 /* AppDelegate.h */,
+				89E2CE5C1E8E01170059E3F5 /* AppDelegate.m */,
+				89E2CE5E1E8E01170059E3F5 /* ViewController.h */,
+				89E2CE5F1E8E01170059E3F5 /* ViewController.m */,
+				890383421E8F7CC8008D91A9 /* JLDisplayCell.h */,
+				890383431E8F7CC8008D91A9 /* JLDisplayCell.m */,
+				890383471E8F8099008D91A9 /* JLDisplayModel.h */,
+				890383481E8F8099008D91A9 /* JLDisplayModel.m */,
+				89E2CE611E8E01170059E3F5 /* Main.storyboard */,
+				89E2CE641E8E01170059E3F5 /* Assets.xcassets */,
+				89E2CE661E8E01170059E3F5 /* LaunchScreen.storyboard */,
+				89E2CE691E8E01170059E3F5 /* Info.plist */,
+				89E2CE581E8E01170059E3F5 /* Supporting Files */,
+			);
+			path = JLLabel;
+			sourceTree = "<group>";
+		};
+		89E2CE581E8E01170059E3F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89E2CE591E8E01170059E3F5 /* main.m */,
+				8903839F1E8FB7A0008D91A9 /* displayText.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89E2CE711E8E01170059E3F5 /* JLLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				89E2CE721E8E01170059E3F5 /* JLLabelTests.m */,
+				89E2CE741E8E01170059E3F5 /* Info.plist */,
+			);
+			path = JLLabelTests;
+			sourceTree = "<group>";
+		};
+		89E2CE7C1E8E01170059E3F5 /* JLLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89E2CE7D1E8E01170059E3F5 /* JLLabelUITests.m */,
+				89E2CE7F1E8E01170059E3F5 /* Info.plist */,
+			);
+			path = JLLabelUITests;
+			sourceTree = "<group>";
+		};
+		89E2CE8B1E8E013A0059E3F5 /* JLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8903833C1E8F776C008D91A9 /* NSString+Calculator.h */,
+				8903833D1E8F776C008D91A9 /* NSString+Calculator.m */,
+				89E2CE8C1E8E014C0059E3F5 /* JLLabel.h */,
+				89E2CE8D1E8E014C0059E3F5 /* JLLabel.m */,
+				890382E31E8F3193008D91A9 /* JLAsyncDisplayLayer.h */,
+				890382E41E8F3193008D91A9 /* JLAsyncDisplayLayer.m */,
+			);
+			path = JLLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89E2CE541E8E01170059E3F5 /* JLLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E2CE821E8E01170059E3F5 /* Build configuration list for PBXNativeTarget "JLLabel" */;
+			buildPhases = (
+				89E2CE511E8E01170059E3F5 /* Sources */,
+				89E2CE521E8E01170059E3F5 /* Frameworks */,
+				89E2CE531E8E01170059E3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLLabel;
+			productName = JLLabel;
+			productReference = 89E2CE551E8E01170059E3F5 /* JLLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89E2CE6D1E8E01170059E3F5 /* JLLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E2CE851E8E01170059E3F5 /* Build configuration list for PBXNativeTarget "JLLabelTests" */;
+			buildPhases = (
+				89E2CE6A1E8E01170059E3F5 /* Sources */,
+				89E2CE6B1E8E01170059E3F5 /* Frameworks */,
+				89E2CE6C1E8E01170059E3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E2CE701E8E01170059E3F5 /* PBXTargetDependency */,
+			);
+			name = JLLabelTests;
+			productName = JLLabelTests;
+			productReference = 89E2CE6E1E8E01170059E3F5 /* JLLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89E2CE781E8E01170059E3F5 /* JLLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E2CE881E8E01170059E3F5 /* Build configuration list for PBXNativeTarget "JLLabelUITests" */;
+			buildPhases = (
+				89E2CE751E8E01170059E3F5 /* Sources */,
+				89E2CE761E8E01170059E3F5 /* Frameworks */,
+				89E2CE771E8E01170059E3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E2CE7B1E8E01170059E3F5 /* PBXTargetDependency */,
+			);
+			name = JLLabelUITests;
+			productName = JLLabelUITests;
+			productReference = 89E2CE791E8E01170059E3F5 /* JLLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E2CE4D1E8E01170059E3F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张天龙";
+				TargetAttributes = {
+					89E2CE541E8E01170059E3F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					89E2CE6D1E8E01170059E3F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89E2CE541E8E01170059E3F5;
+					};
+					89E2CE781E8E01170059E3F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89E2CE541E8E01170059E3F5;
+					};
+				};
+			};
+			buildConfigurationList = 89E2CE501E8E01170059E3F5 /* Build configuration list for PBXProject "JLLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89E2CE4C1E8E01170059E3F5;
+			productRefGroup = 89E2CE561E8E01170059E3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E2CE541E8E01170059E3F5 /* JLLabel */,
+				89E2CE6D1E8E01170059E3F5 /* JLLabelTests */,
+				89E2CE781E8E01170059E3F5 /* JLLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89E2CE531E8E01170059E3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2CE681E8E01170059E3F5 /* LaunchScreen.storyboard in Resources */,
+				89E2CE651E8E01170059E3F5 /* Assets.xcassets in Resources */,
+				890383A01E8FB7A0008D91A9 /* displayText.plist in Resources */,
+				89E2CE631E8E01170059E3F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2CE6C1E8E01170059E3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2CE771E8E01170059E3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E2CE511E8E01170059E3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890383491E8F8099008D91A9 /* JLDisplayModel.m in Sources */,
+				89E2CE601E8E01170059E3F5 /* ViewController.m in Sources */,
+				89E2CE5D1E8E01170059E3F5 /* AppDelegate.m in Sources */,
+				89E2CE8E1E8E014C0059E3F5 /* JLLabel.m in Sources */,
+				890383451E8F7CC8008D91A9 /* JLDisplayCell.m in Sources */,
+				890382E51E8F3193008D91A9 /* JLAsyncDisplayLayer.m in Sources */,
+				89E2CE5A1E8E01170059E3F5 /* main.m in Sources */,
+				8903833E1E8F776C008D91A9 /* NSString+Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2CE6A1E8E01170059E3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2CE731E8E01170059E3F5 /* JLLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E2CE751E8E01170059E3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E2CE7E1E8E01170059E3F5 /* JLLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89E2CE701E8E01170059E3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E2CE541E8E01170059E3F5 /* JLLabel */;
+			targetProxy = 89E2CE6F1E8E01170059E3F5 /* PBXContainerItemProxy */;
+		};
+		89E2CE7B1E8E01170059E3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E2CE541E8E01170059E3F5 /* JLLabel */;
+			targetProxy = 89E2CE7A1E8E01170059E3F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89E2CE611E8E01170059E3F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E2CE621E8E01170059E3F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89E2CE661E8E01170059E3F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E2CE671E8E01170059E3F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89E2CE801E8E01170059E3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89E2CE811E8E01170059E3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E2CE831E8E01170059E3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbangshou.JLLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89E2CE841E8E01170059E3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbangshou.JLLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89E2CE861E8E01170059E3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbangshou.JLLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLLabel.app/JLLabel";
+			};
+			name = Debug;
+		};
+		89E2CE871E8E01170059E3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbangshou.JLLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLLabel.app/JLLabel";
+			};
+			name = Release;
+		};
+		89E2CE891E8E01170059E3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbangshou.JLLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLLabel;
+			};
+			name = Debug;
+		};
+		89E2CE8A1E8E01170059E3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbangshou.JLLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89E2CE501E8E01170059E3F5 /* Build configuration list for PBXProject "JLLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2CE801E8E01170059E3F5 /* Debug */,
+				89E2CE811E8E01170059E3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E2CE821E8E01170059E3F5 /* Build configuration list for PBXNativeTarget "JLLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2CE831E8E01170059E3F5 /* Debug */,
+				89E2CE841E8E01170059E3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E2CE851E8E01170059E3F5 /* Build configuration list for PBXNativeTarget "JLLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2CE861E8E01170059E3F5 /* Debug */,
+				89E2CE871E8E01170059E3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E2CE881E8E01170059E3F5 /* Build configuration list for PBXNativeTarget "JLLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E2CE891E8E01170059E3F5 /* Debug */,
+				89E2CE8A1E8E01170059E3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89E2CE4D1E8E01170059E3F5 /* Project object */;
+}
