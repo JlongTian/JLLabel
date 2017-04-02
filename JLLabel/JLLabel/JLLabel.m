@@ -347,11 +347,14 @@
         
         CGFloat width = (CGFloat)CTRunGetTypographicBounds(run,CFRangeMake(0, 0),&ascent,&descent,NULL);
         CGFloat height = ascent + descent;
-    
+        
+        //intersectedRunRange.location：交集的起点位置在哪里，把起点传进CTLineGetOffsetForStringIndex函数就可以计算出交集原点距离line的原点多少偏移量，就可以计算出交集的原点了
         CGFloat xOffset = CTLineGetOffsetForStringIndex(line, intersectedRunRange.location, nil);
         
         CGFloat linkRectX = lineOrigin.x + xOffset;
         CGFloat linkRectY = lineOrigin.y - descent;
+        //width/lineRunRange.length:计算出CTRunRef中平均每个字的宽高（CTRunRef有可能多个字，但是他们的属性都相同，所以每个字的宽度是一样的）
+        //intersectedRunRange.length:交集处有多少个字
         CGFloat linkRectW = (width/lineRunRange.length)*intersectedRunRange.length;
         CGFloat linkRectH = height;
         
